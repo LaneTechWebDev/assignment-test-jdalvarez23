@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example - Dynamic Element Creation</title>
+    </head>
+    <body onload="createElements()">
+        
+        
+    </body>
+    <script>
+        function createElements() {
+            for (var i=0; i<5; i++) {
+                addElement("This is paragraph " + i + "."); 
+            }
+        }
+        
+        
+        /*
+            The addElement function is a modified version of the function at
+            https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+        */
+        
+        function addElement (strContent) { 
+          // create a new paragraph element
+          var newParagraph = document.createElement("p"); 
+          
+          // create a text node using the parameter value
+          var newContent = document.createTextNode(strContent); 
+          
+          //add the text node to the newly created div. 
+          newParagraph.appendChild(newContent);
+          
+          // add the newly created element and its content into the DOM 
+          document.body.appendChild(newParagraph); 
+        }
+        
+    </script>
+</html>
