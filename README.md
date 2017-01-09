@@ -32,6 +32,14 @@ View the source of this page, then inspect the image element.   Note again the h
 Now let's look at another tab on the Developer Tools.   Click the *Sources* tab to see a nested listing of all the files involved in displaying this page. 
 
 
+###Step 3
+In a new tab, navigate to [https://it202.github.io/lab-page-exploration/page3.html](https://it202.github.io/lab-page-exploration/page3.html).
+
+There are some elements on this page, but as you view the page source, notice that there are no HTML tags inside the body element.
+
+Now go ahead and inspect one of the paragraph elements.  Notice that the DOM elements are there; they were programmatically generated.  In addition to rendering HTML and CSS, the browser processes JavaScript; ask our apps get more sophisticated, we'll use JavaScript (and the jQuery library) to manipulate the DOM in response to events.
+
+
 ****
 ##Resources
 
