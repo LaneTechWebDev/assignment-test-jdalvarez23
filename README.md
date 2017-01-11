@@ -39,6 +39,12 @@ There are some elements on this page, but as you view the page source, notice th
 
 Now go ahead and inspect one of the paragraph elements.  Notice that the DOM elements are there; they were programmatically generated.  In addition to rendering HTML and CSS, the browser processes JavaScript; ask our apps get more sophisticated, we'll use JavaScript (and the jQuery library) to manipulate the DOM in response to events.
 
+###Step 4
+In a new tab, navigate to [https://it202.github.io/lab-page-exploration/page4.html](https://it202.github.io/lab-page-exploration/page4.html).
+
+This page includes a number of elements - some of the same type - that are styled differently based on the [http://www.w3schools.com/cssref/css_selectors.asp](selectors) used.
+
+Look at the **Internal Style Sheet** for the page, then inspect each element, looking at the style rules applied to each element **and** the source of those rules.
 
 ****
 ##Resources
