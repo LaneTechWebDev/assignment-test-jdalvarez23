@@ -37,7 +37,7 @@ In a new tab, navigate to [https://it202.github.io/lab-page-exploration/page3.ht
 
 There are some elements on this page, but as you view the page source, notice that there are no HTML tags inside the body element.
 
-Now go ahead and inspect one of the paragraph elements.  Notice that the DOM elements are there; they were programmatically generated.  In addition to rendering HTML and CSS, the browser processes JavaScript; ask our apps get more sophisticated, we'll use JavaScript (and the jQuery library) to manipulate the DOM in response to events.
+Now go ahead and inspect one of the paragraph elements.  Notice that the DOM elements are there; they were programmatically generated.  In addition to rendering HTML and CSS, the browser processes JavaScript; as our apps get more sophisticated, we'll use JavaScript (and the jQuery library) to manipulate the DOM in response to events.
 
 ###Step 4
 In a new tab, navigate to [https://it202.github.io/lab-page-exploration/page4.html](https://it202.github.io/lab-page-exploration/page4.html).
