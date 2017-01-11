@@ -42,7 +42,7 @@ Now go ahead and inspect one of the paragraph elements.  Notice that the DOM ele
 ###Step 4
 In a new tab, navigate to [https://it202.github.io/lab-page-exploration/page4.html](https://it202.github.io/lab-page-exploration/page4.html).
 
-This page includes a number of elements - some of the same type - that are styled differently based on the [http://www.w3schools.com/cssref/css_selectors.asp](selectors) used.
+This page includes a number of elements - some of the same type - that are styled differently based on the [selectors](http://www.w3schools.com/cssref/css_selectors.asp) used.
 
 Look at the **Internal Style Sheet** for the page, then inspect each element, looking at the style rules applied to each element **and** the source of those rules.
 
